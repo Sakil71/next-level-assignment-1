@@ -5,7 +5,7 @@ function formatString(input: string, toUpper?: boolean): string {
     return input.toLowerCase();
   }
 }
-// console.log(formatString("Sakil"));
+// console.log(formatString("Next Level Dev", true));
 
 function filterByRating(
   items: { title: string; rating: number }[]
@@ -18,7 +18,10 @@ const books = [
   { title: "Book A", rating: 4.5 },
   { title: "Book B", rating: 3.2 },
   { title: "Book C", rating: 5.0 },
+  { title: "Marahaba!! javaSxcript E Maro Thaba", rating: 4.5 },
 ];
+
+// console.log(filterByRating(books));
 
 function concatenateArrays<T>(...arrays: T[][]): T[] {
   const result: T[] = [];
@@ -29,7 +32,7 @@ function concatenateArrays<T>(...arrays: T[][]): T[] {
 }
 
 // console.log(concatenateArrays(["a", "b"], ["c"]));
-// console.log(concatenateArrays([1, 2], [3, 4], [5]));
+// console.log(concatenateArrays([1, 2], [3, 4], [5, 6], [7, 8, 9]));
 
 class Vehicle {
   private make: string;
@@ -69,7 +72,7 @@ function processValue(value: string | number): number {
   }
 }
 
-const result1 = processValue(10);
+const result1 = processValue('Next');
 // console.log(result1);
 
 interface Product {
@@ -94,6 +97,7 @@ const products = [
   { name: "Pen", price: 10 },
   { name: "Notebook", price: 15 },
   { name: "Bag", price: 50 },
+  { name: "Mac Book", price: 100 },
 ];
 
 // console.log(getMostExpensiveProduct(products));
@@ -113,13 +117,14 @@ function getDayType(day: Day): string {
     case Day.Saturday:
     case Day.Sunday:
       return "Weekend";
+
     default:
       return "Weekday";
   }
 }
 
 getDayType(Day.Sunday);
-// console.log(getDayType(Day.Friday));
+// console.log(getDayType(Day.Thursday));
 
 async function squareAsync(n: number): Promise<number> {
   return new Promise((resolve, reject) => {

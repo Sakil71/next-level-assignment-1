@@ -15,7 +15,7 @@ An interface in TypeScript serves as a contract that defines the structure of an
 - Use interface when defining the shape of objects or classes.
 - Make an interface use 'interface' keyword
 
-Example :
+* Example :
 
 ```
 interface User {
@@ -67,7 +67,7 @@ Types in TypeScript serve as a way to describe the shape and structure of data, 
 - Make an type use 'type' keyword
 - type gives a powerful and flexible ways to define and compose custom types.
 
-Example :
+* Example :
 
 **Object Shapes**
 
@@ -121,15 +121,15 @@ TypeScript improves code quality and project maintainability in several powerful
 - Enforcing best practices
 - Consistent code and preventing inconsistent practices
 
-#### Static typing
+### Static typing
 
-* Type safety :
+- Type safety :
   TypeScript enforces type checks at compile time ensuring that variables are used consistently according to their type, which helps catch errors early such as passing a string where a number is expected.
 
-* Avoid common errors :
+- Avoid common errors :
   Common mistakes like undefined or null errors can be avoided by explicitly specifying types and their structures.
 
-* Type Inference :
+- Type Inference :
   TypeScript can infer types when not explicitly declared, reducing verbosity while maintaining safety.
 
   **Example :**
@@ -142,7 +142,7 @@ TypeScript improves code quality and project maintainability in several powerful
 
 ### Enhanced readability
 
-* Clearer Code:
+- Clearer Code:
   Types help describe what each part of the code is doing. This is particularly useful for team collaboration, where new developers can understand the expected data structures and behavior without having to dive deeply into the implementation.
 
   **Example**
@@ -155,18 +155,18 @@ TypeScript improves code quality and project maintainability in several powerful
 
 ### Early error detection
 
-* Compilation errors:
+- Compilation errors:
   TypeScript compiles to JavaScript but provides an additional layer of error checking. Instead of discovering bugs during runtime, they are caught early in the development cycle.
 
-* Tooling integration :
+- Tooling integration :
   IDEs provide real-time feedback (auto-completion, suggestions, and error highlighting) based on the types, reducing bugs significantly.
 
 ### Refactoring and scalability
 
-* Easy refactoring:
+- Easy refactoring:
   TypeScript helps ensure that renaming variables, functions, or properties does not introduce errors throughout the codebase.
 
-* Interfaces and Types:
+- Interfaces and Types:
   Defining interfaces or types allows developers to create well-structured APIs within the application, ensuring consistency across different parts of the app and improving communication between teams.
 
   **Example**
@@ -181,12 +181,17 @@ TypeScript improves code quality and project maintainability in several powerful
   }
   ```
 
-### Enforcing Best Practices
+### Enforcing best practices
 
-* Strict Mode :
+- Strict Mode :
   TypeScript can be configured with a strict mode, enforcing rigorous checks, which encourages developers to follow best practices, write safer code, and avoid common pitfalls like implicit any types.
   **Example**
   ```
   let x : any;
   x = "Hello Developer" ---- in strict mode, this will cause an error
   ```
+
+
+
+
+<!-- ================= By Shakil Ahamed ==================== -->
