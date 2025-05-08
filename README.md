@@ -4,7 +4,7 @@
 
 ### 1. What are some differences between interfaces and types in TypeScript?
 
-### Interfaec:
+                                            ## Interfaec:
 
 An interface in TypeScript serves as a contract that defines the structure of an object. Specifying the methods they should have without providing implementations. It is a way to establish a set of behaviors that different classes can adopt promoting loose coupling and code reuse.
 
@@ -56,7 +56,7 @@ private savingsBalance : number;
 }
 ```
 
-### Type
+                                                ## Type
 
 Types in TypeScript serve as a way to describe the shape and structure of data, ensuring type safety and providing enhanced tooling support. They act as labels that define the properties and methods that a value possesses.
 
